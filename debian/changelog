@@ -1,0 +1,49 @@
+cpptasks (1.0~b5-5) unstable; urgency=medium
+
+  * Team upload.
+  * Added the missing dependency on libxerces2-java
+  * Standards-Version updated to 4.4.0
+
+ -- Emmanuel Bourg <ebourg@apache.org>  Sat, 21 Sep 2019 09:56:58 +0200
+
+cpptasks (1.0~b5-4) unstable; urgency=medium
+
+  * Specify the rule to fix the ant dependency.
+
+ -- Andrej Shadura <andrewsh@debian.org>  Thu, 19 Sep 2019 18:12:34 +0200
+
+cpptasks (1.0~b5-3) unstable; urgency=medium
+
+  [ Christopher Baines ]
+  * Improve formatting for debian/control.
+  * Add patch to remove Sourceforge logo (privacy breach).
+  * Add watch file (thanks bartm).
+  * Improve description formatting.
+  * Update copyright file format.
+
+  [ Andrej Shadura ]
+  * Compile with and for Java 7.
+  * Switch to dh and maven-repo-helper.
+  * Use secure copyright file specification URI.
+  * Bump debhelper from deprecated 7 to 12.
+  * Change priority extra to priority optional.
+  * Run wrap-and-sort -bask.
+  * Use debhelper-compat instead of debian/compat.
+  * d/control: Set Vcs-* to salsa.debian.org.
+
+ -- Andrej Shadura <andrewsh@debian.org>  Thu, 19 Sep 2019 16:05:18 +0200
+
+cpptasks (1.0~b5-2) unstable; urgency=low
+
+  * Team upload.
+  * Import package into git.debian.org and add Vcs-* headers.
+  * Really use default-jdk for building the package. (Closes: #643510)
+  * Remove Java runtime from Depends.
+
+ -- Torsten Werner <twerner@debian.org>  Tue, 04 Oct 2011 21:32:38 +0200
+
+cpptasks (1.0~b5-1) unstable; urgency=low
+
+  * Initial release (closes: #590045).
+
+ -- Christopher Baines <cbaines8@gmail.com>  Thu, 22 Jul 2010 16:24:23 +0100

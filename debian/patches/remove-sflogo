@@ -1,0 +1,357 @@
+Description: Remove Sourceforge logo from the documentation
+ The HTML documentation included a img tag that loaded a image (the Sourceforge
+ logo) from sourceforge's servers. As this is not a core component of the
+ documentation, and it could breach a users privacy, this patch removes those
+ lines.
+Author: Christopher Baines <mail@cbaines.net>
+
+--- cpptasks-1.0~b5.orig/site/antdocs/CCTask.html
++++ cpptasks-1.0~b5/site/antdocs/CCTask.html
+@@ -30,7 +30,6 @@
+             </a>
+                         <a href="http://www.sourceforge.net/" id="bannerRight">
+     
+-                                    <img src="http://sflogo.sourceforge.net/sflogo.php?group_id=36177&type=5" alt="" />
+     
+             </a>
+             <div class="clear">
+--- cpptasks-1.0~b5.orig/site/antdocs/CommentDef.html
++++ cpptasks-1.0~b5/site/antdocs/CommentDef.html
+@@ -30,7 +30,6 @@
+             </a>
+                         <a href="http://www.sourceforge.net/" id="bannerRight">
+     
+-                                    <img src="http://sflogo.sourceforge.net/sflogo.php?group_id=36177&type=5" alt="" />
+     
+             </a>
+             <div class="clear">
+--- cpptasks-1.0~b5.orig/site/antdocs/CompilerArgument.html
++++ cpptasks-1.0~b5/site/antdocs/CompilerArgument.html
+@@ -30,7 +30,6 @@
+             </a>
+                         <a href="http://www.sourceforge.net/" id="bannerRight">
+     
+-                                    <img src="http://sflogo.sourceforge.net/sflogo.php?group_id=36177&type=5" alt="" />
+     
+             </a>
+             <div class="clear">
+--- cpptasks-1.0~b5.orig/site/antdocs/CompilerDef.html
++++ cpptasks-1.0~b5/site/antdocs/CompilerDef.html
+@@ -30,7 +30,6 @@
+             </a>
+                         <a href="http://www.sourceforge.net/" id="bannerRight">
+     
+-                                    <img src="http://sflogo.sourceforge.net/sflogo.php?group_id=36177&type=5" alt="" />
+     
+             </a>
+             <div class="clear">
+--- cpptasks-1.0~b5.orig/site/antdocs/CompilerParam.html
++++ cpptasks-1.0~b5/site/antdocs/CompilerParam.html
+@@ -30,7 +30,6 @@
+             </a>
+                         <a href="http://www.sourceforge.net/" id="bannerRight">
+     
+-                                    <img src="http://sflogo.sourceforge.net/sflogo.php?group_id=36177&type=5" alt="" />
+     
+             </a>
+             <div class="clear">
+--- cpptasks-1.0~b5.orig/site/antdocs/ConditionalFileSet.html
++++ cpptasks-1.0~b5/site/antdocs/ConditionalFileSet.html
+@@ -30,7 +30,6 @@
+             </a>
+                         <a href="http://www.sourceforge.net/" id="bannerRight">
+     
+-                                    <img src="http://sflogo.sourceforge.net/sflogo.php?group_id=36177&type=5" alt="" />
+     
+             </a>
+             <div class="clear">
+--- cpptasks-1.0~b5.orig/site/antdocs/ConditionalPath.html
++++ cpptasks-1.0~b5/site/antdocs/ConditionalPath.html
+@@ -30,7 +30,6 @@
+             </a>
+                         <a href="http://www.sourceforge.net/" id="bannerRight">
+     
+-                                    <img src="http://sflogo.sourceforge.net/sflogo.php?group_id=36177&type=5" alt="" />
+     
+             </a>
+             <div class="clear">
+--- cpptasks-1.0~b5.orig/site/antdocs/DebugDef.html
++++ cpptasks-1.0~b5/site/antdocs/DebugDef.html
+@@ -30,7 +30,6 @@
+             </a>
+                         <a href="http://www.sourceforge.net/" id="bannerRight">
+     
+-                                    <img src="http://sflogo.sourceforge.net/sflogo.php?group_id=36177&type=5" alt="" />
+     
+             </a>
+             <div class="clear">
+--- cpptasks-1.0~b5.orig/site/antdocs/DefineArgument.html
++++ cpptasks-1.0~b5/site/antdocs/DefineArgument.html
+@@ -30,7 +30,6 @@
+             </a>
+                         <a href="http://www.sourceforge.net/" id="bannerRight">
+     
+-                                    <img src="http://sflogo.sourceforge.net/sflogo.php?group_id=36177&type=5" alt="" />
+     
+             </a>
+             <div class="clear">
+--- cpptasks-1.0~b5.orig/site/antdocs/DefineSet.html
++++ cpptasks-1.0~b5/site/antdocs/DefineSet.html
+@@ -30,7 +30,6 @@
+             </a>
+                         <a href="http://www.sourceforge.net/" id="bannerRight">
+     
+-                                    <img src="http://sflogo.sourceforge.net/sflogo.php?group_id=36177&type=5" alt="" />
+     
+             </a>
+             <div class="clear">
+--- cpptasks-1.0~b5.orig/site/antdocs/DependencyDef.html
++++ cpptasks-1.0~b5/site/antdocs/DependencyDef.html
+@@ -30,7 +30,6 @@
+             </a>
+                         <a href="http://www.sourceforge.net/" id="bannerRight">
+     
+-                                    <img src="http://sflogo.sourceforge.net/sflogo.php?group_id=36177&type=5" alt="" />
+     
+             </a>
+             <div class="clear">
+--- cpptasks-1.0~b5.orig/site/antdocs/DistributerDef.html
++++ cpptasks-1.0~b5/site/antdocs/DistributerDef.html
+@@ -30,7 +30,6 @@
+             </a>
+                         <a href="http://www.sourceforge.net/" id="bannerRight">
+     
+-                                    <img src="http://sflogo.sourceforge.net/sflogo.php?group_id=36177&type=5" alt="" />
+     
+             </a>
+             <div class="clear">
+--- cpptasks-1.0~b5.orig/site/antdocs/DistributerMap.html
++++ cpptasks-1.0~b5/site/antdocs/DistributerMap.html
+@@ -30,7 +30,6 @@
+             </a>
+                         <a href="http://www.sourceforge.net/" id="bannerRight">
+     
+-                                    <img src="http://sflogo.sourceforge.net/sflogo.php?group_id=36177&type=5" alt="" />
+     
+             </a>
+             <div class="clear">
+--- cpptasks-1.0~b5.orig/site/antdocs/IncludePath.html
++++ cpptasks-1.0~b5/site/antdocs/IncludePath.html
+@@ -30,7 +30,6 @@
+             </a>
+                         <a href="http://www.sourceforge.net/" id="bannerRight">
+     
+-                                    <img src="http://sflogo.sourceforge.net/sflogo.php?group_id=36177&type=5" alt="" />
+     
+             </a>
+             <div class="clear">
+--- cpptasks-1.0~b5.orig/site/antdocs/LibrarySet.html
++++ cpptasks-1.0~b5/site/antdocs/LibrarySet.html
+@@ -30,7 +30,6 @@
+             </a>
+                         <a href="http://www.sourceforge.net/" id="bannerRight">
+     
+-                                    <img src="http://sflogo.sourceforge.net/sflogo.php?group_id=36177&type=5" alt="" />
+     
+             </a>
+             <div class="clear">
+--- cpptasks-1.0~b5.orig/site/antdocs/LinkerArgument.html
++++ cpptasks-1.0~b5/site/antdocs/LinkerArgument.html
+@@ -30,7 +30,6 @@
+             </a>
+                         <a href="http://www.sourceforge.net/" id="bannerRight">
+     
+-                                    <img src="http://sflogo.sourceforge.net/sflogo.php?group_id=36177&type=5" alt="" />
+     
+             </a>
+             <div class="clear">
+--- cpptasks-1.0~b5.orig/site/antdocs/LinkerDef.html
++++ cpptasks-1.0~b5/site/antdocs/LinkerDef.html
+@@ -30,7 +30,6 @@
+             </a>
+                         <a href="http://www.sourceforge.net/" id="bannerRight">
+     
+-                                    <img src="http://sflogo.sourceforge.net/sflogo.php?group_id=36177&type=5" alt="" />
+     
+             </a>
+             <div class="clear">
+--- cpptasks-1.0~b5.orig/site/antdocs/LinkerParam.html
++++ cpptasks-1.0~b5/site/antdocs/LinkerParam.html
+@@ -30,7 +30,6 @@
+             </a>
+                         <a href="http://www.sourceforge.net/" id="bannerRight">
+     
+-                                    <img src="http://sflogo.sourceforge.net/sflogo.php?group_id=36177&type=5" alt="" />
+     
+             </a>
+             <div class="clear">
+--- cpptasks-1.0~b5.orig/site/antdocs/PrecompileDef.html
++++ cpptasks-1.0~b5/site/antdocs/PrecompileDef.html
+@@ -30,7 +30,6 @@
+             </a>
+                         <a href="http://www.sourceforge.net/" id="bannerRight">
+     
+-                                    <img src="http://sflogo.sourceforge.net/sflogo.php?group_id=36177&type=5" alt="" />
+     
+             </a>
+             <div class="clear">
+--- cpptasks-1.0~b5.orig/site/antdocs/PrecompileExceptDef.html
++++ cpptasks-1.0~b5/site/antdocs/PrecompileExceptDef.html
+@@ -30,7 +30,6 @@
+             </a>
+                         <a href="http://www.sourceforge.net/" id="bannerRight">
+     
+-                                    <img src="http://sflogo.sourceforge.net/sflogo.php?group_id=36177&type=5" alt="" />
+     
+             </a>
+             <div class="clear">
+--- cpptasks-1.0~b5.orig/site/antdocs/ProjectDef.html
++++ cpptasks-1.0~b5/site/antdocs/ProjectDef.html
+@@ -30,7 +30,6 @@
+             </a>
+                         <a href="http://www.sourceforge.net/" id="bannerRight">
+     
+-                                    <img src="http://sflogo.sourceforge.net/sflogo.php?group_id=36177&type=5" alt="" />
+     
+             </a>
+             <div class="clear">
+--- cpptasks-1.0~b5.orig/site/antdocs/SystemIncludePath.html
++++ cpptasks-1.0~b5/site/antdocs/SystemIncludePath.html
+@@ -30,7 +30,6 @@
+             </a>
+                         <a href="http://www.sourceforge.net/" id="bannerRight">
+     
+-                                    <img src="http://sflogo.sourceforge.net/sflogo.php?group_id=36177&type=5" alt="" />
+     
+             </a>
+             <div class="clear">
+--- cpptasks-1.0~b5.orig/site/antdocs/SystemLibrarySet.html
++++ cpptasks-1.0~b5/site/antdocs/SystemLibrarySet.html
+@@ -30,7 +30,6 @@
+             </a>
+                         <a href="http://www.sourceforge.net/" id="bannerRight">
+     
+-                                    <img src="http://sflogo.sourceforge.net/sflogo.php?group_id=36177&type=5" alt="" />
+     
+             </a>
+             <div class="clear">
+--- cpptasks-1.0~b5.orig/site/antdocs/TargetDef.html
++++ cpptasks-1.0~b5/site/antdocs/TargetDef.html
+@@ -30,7 +30,6 @@
+             </a>
+                         <a href="http://www.sourceforge.net/" id="bannerRight">
+     
+-                                    <img src="http://sflogo.sourceforge.net/sflogo.php?group_id=36177&type=5" alt="" />
+     
+             </a>
+             <div class="clear">
+--- cpptasks-1.0~b5.orig/site/antdocs/UndefineArgument.html
++++ cpptasks-1.0~b5/site/antdocs/UndefineArgument.html
+@@ -30,7 +30,6 @@
+             </a>
+                         <a href="http://www.sourceforge.net/" id="bannerRight">
+     
+-                                    <img src="http://sflogo.sourceforge.net/sflogo.php?group_id=36177&type=5" alt="" />
+     
+             </a>
+             <div class="clear">
+--- cpptasks-1.0~b5.orig/site/antdocs/VersionInfo.html
++++ cpptasks-1.0~b5/site/antdocs/VersionInfo.html
+@@ -30,7 +30,6 @@
+             </a>
+                         <a href="http://www.sourceforge.net/" id="bannerRight">
+     
+-                                    <img src="http://sflogo.sourceforge.net/sflogo.php?group_id=36177&type=5" alt="" />
+     
+             </a>
+             <div class="clear">
+--- cpptasks-1.0~b5.orig/site/changes-report.html
++++ cpptasks-1.0~b5/site/changes-report.html
+@@ -30,7 +30,6 @@
+             </a>
+                         <a href="http://www.sourceforge.net/" id="bannerRight">
+     
+-                                    <img src="http://sflogo.sourceforge.net/sflogo.php?group_id=36177&type=5" alt="" />
+     
+             </a>
+             <div class="clear">
+--- cpptasks-1.0~b5.orig/site/index.html
++++ cpptasks-1.0~b5/site/index.html
+@@ -30,7 +30,6 @@
+             </a>
+                         <a href="http://www.sourceforge.net/" id="bannerRight">
+     
+-                                    <img src="http://sflogo.sourceforge.net/sflogo.php?group_id=36177&type=5" alt="" />
+     
+             </a>
+             <div class="clear">
+--- cpptasks-1.0~b5.orig/site/integration.html
++++ cpptasks-1.0~b5/site/integration.html
+@@ -30,7 +30,6 @@
+             </a>
+                         <a href="http://www.sourceforge.net/" id="bannerRight">
+     
+-                                    <img src="http://sflogo.sourceforge.net/sflogo.php?group_id=36177&type=5" alt="" />
+     
+             </a>
+             <div class="clear">
+--- cpptasks-1.0~b5.orig/site/issue-tracking.html
++++ cpptasks-1.0~b5/site/issue-tracking.html
+@@ -30,7 +30,6 @@
+             </a>
+                         <a href="http://www.sourceforge.net/" id="bannerRight">
+     
+-                                    <img src="http://sflogo.sourceforge.net/sflogo.php?group_id=36177&type=5" alt="" />
+     
+             </a>
+             <div class="clear">
+--- cpptasks-1.0~b5.orig/site/license.html
++++ cpptasks-1.0~b5/site/license.html
+@@ -30,7 +30,6 @@
+             </a>
+                         <a href="http://www.sourceforge.net/" id="bannerRight">
+     
+-                                    <img src="http://sflogo.sourceforge.net/sflogo.php?group_id=36177&type=5" alt="" />
+     
+             </a>
+             <div class="clear">
+--- cpptasks-1.0~b5.orig/site/mail-lists.html
++++ cpptasks-1.0~b5/site/mail-lists.html
+@@ -30,7 +30,6 @@
+             </a>
+                         <a href="http://www.sourceforge.net/" id="bannerRight">
+     
+-                                    <img src="http://sflogo.sourceforge.net/sflogo.php?group_id=36177&type=5" alt="" />
+     
+             </a>
+             <div class="clear">
+--- cpptasks-1.0~b5.orig/site/project-info.html
++++ cpptasks-1.0~b5/site/project-info.html
+@@ -30,7 +30,6 @@
+             </a>
+                         <a href="http://www.sourceforge.net/" id="bannerRight">
+     
+-                                    <img src="http://sflogo.sourceforge.net/sflogo.php?group_id=36177&type=5" alt="" />
+     
+             </a>
+             <div class="clear">
+--- cpptasks-1.0~b5.orig/site/project-reports.html
++++ cpptasks-1.0~b5/site/project-reports.html
+@@ -30,7 +30,6 @@
+             </a>
+                         <a href="http://www.sourceforge.net/" id="bannerRight">
+     
+-                                    <img src="http://sflogo.sourceforge.net/sflogo.php?group_id=36177&type=5" alt="" />
+     
+             </a>
+             <div class="clear">
+--- cpptasks-1.0~b5.orig/site/source-repository.html
++++ cpptasks-1.0~b5/site/source-repository.html
+@@ -30,7 +30,6 @@
+             </a>
+                         <a href="http://www.sourceforge.net/" id="bannerRight">
+     
+-                                    <img src="http://sflogo.sourceforge.net/sflogo.php?group_id=36177&type=5" alt="" />
+     
+             </a>
+             <div class="clear">

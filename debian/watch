@@ -1,0 +1,4 @@
+version=3
+opts=dversionmangle=s/^(1\.0)~(b5)$/$1$2/ \
+http://qa.debian.org/watch/sf.php/ant-contrib/ \
+(?:|.*/)cpptasks[_\-](\d\S*)\.(?:tar\.xz|txz|tar\.bz2|tbz2|tar\.gz|tgz)
